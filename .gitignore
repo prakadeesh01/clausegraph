@@ -8,9 +8,12 @@ venv/
 .ruff_cache/
 .coverage
 htmlcov/
+commitmsg.txt
 
 # Secrets and local configuration
 .env
+gcp-key.json
+*-key.json
 
 # Data and generated artefacts. Regenerable from committed code, so the
 # repository stays reviewable rather than becoming a data store.
